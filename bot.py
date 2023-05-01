@@ -16,7 +16,8 @@ def LoadChannels():
         print(data)
 
 def run_discord_bot():
-    TOKEN = 'MTA5NDcwMDUwMzEwOTIxMDEyMg.GnNUoo.zG30wwL9vb3nhCLxmSiOjsGVMhsLlCa3fwgjRI'
+    #TOKEN = 'MTA5NDcwMDUwMzEwOTIxMDEyMg.GnNUoo.zG30wwL9vb3nhCLxmSiOjsGVMhsLlCa3fwgjRI'
+    TOKEN = 'MTA5NDcwMDUwMzEwOTIxMDEyMg.GGRwf-.NFXXclH42wOmNx8VRBC5fdCHCdWrLpej8_3QAc'
     intents = discord.Intents.default()
     intents.message_content = True
     client = discord.Client(intents=intents)
