@@ -5,7 +5,7 @@ def get_response(message: str) -> str:
     msg = message.lower()
 
     if msg == '?online':
-        return "Response Good"
+        return "Response good"
     if msg == '?ip':
         return urllib.request.urlopen('https://ident.me').read().decode('utf8') + ":25565"
     if msg == '?server':
